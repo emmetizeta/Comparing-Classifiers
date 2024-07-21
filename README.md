@@ -63,6 +63,7 @@ Considering the Business objective, a metric able to minimize the resources inve
 
 ## 5. Next Steps
 - Considering the very unbalanced nature of this dataset, I would recommend to take actions to "rebalance" it. This means adopting techniques of oversampling (for minority group) or undersampling (for majority group). I tried something during this analysis but I didn't -trust the results. A more methodic approach should be developed in this topic.
+- The model-optimization of this analysis focused on "precision". I would suggest to extend this optimization to other metrics as well, like "roc_auc". This should allow to get a better balance between precision and recall performance.
 - I would also invest more resources in indentifying a set of "main features": this would allow to make the computational analysis more agile and find better optimized models. According to the correlation matrix, some features look correlated, so this could provide interesting insights to better understand the dataset. 
 - Another interestng application would be considering an "ensamble" approach, structuring more models to work together and trying to overperform the results from a single model.
 
